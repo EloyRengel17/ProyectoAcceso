@@ -1,3 +1,10 @@
+Crear la base de datos:
+Abre PostgreSQL (pgAdmin o terminal) y crea una base de datos con el nombre que figura en el archivo bd_accesso.sql (o el que desees).
+Ejecuta el script SQL (bd_accesso.sql) en tu base de datos para crear las tablas necesarias.
+
+Configurar credenciales:
+Abre el archivo backend/db.js y modifica las credenciales para que coincidan con tu configuración de PostgreSQL
+
 Instrucciones para Ejecutar el Proyecto
 Este proyecto está dividido en dos partes principales: backend (servidor) y frontend (cliente). A continuación, se detallan los pasos necesarios para configurar y ejecutar ambas partes.
 
